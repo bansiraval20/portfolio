@@ -1,11 +1,5 @@
-import Portfolio from "@/components/Portfolio";
+import Homepage from "@/components/Homepage";
 
-
-export default function Home() {
-  return (
-    <main>
-      <Portfolio />
-      
-    </main>
-  );
+export default function Page() {
+  return <Homepage />;
 }
