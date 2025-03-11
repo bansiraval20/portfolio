@@ -1,9 +1,8 @@
 "use client";
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { once } from "events";
+import Image from "next/image";
 
 const portfolio = () => {
   return (
@@ -13,10 +12,11 @@ const portfolio = () => {
       <div className="flex flex-col md:flex-row-reverse items-center justify-evenly h-screen px-6 text-center md:text-left">
       {/* Profile Image (Smaller than Text Div) */}
       <div className="w-56 h-56 md:w-72 md:h-72 overflow-hidden shadow-md shadow-slate-600 rounded-full animate-bounceIn flex-shrink-0">
-        <img
+        <Image
           src="/profile2.jpg"
           alt="Profile"
           className="object-cover w-full h-full"
+          fill
         />
       </div>
 
@@ -24,7 +24,7 @@ const portfolio = () => {
       <div className="w-full md:w-2/3 lg:w-1/2 text-slate-900 px-6 md:px-12 mt-8 md:mt-0 flex flex-col items-center md:items-start">
         <h1 className="text-4xl font-bold animate-bounceIn">Hi,</h1>
         <h1 className="text-3xl font-bold animate-bounceIn">
-          I'm <span className="text-blue-600">Bansi</span>
+          I&apos;m <span className="text-blue-600">Bansi</span>
         </h1>
         <h1 className="text-3xl font-bold animate-bounceIn">Web Designer</h1>
 
