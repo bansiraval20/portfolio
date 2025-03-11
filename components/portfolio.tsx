@@ -4,7 +4,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-const portfolio = () => {
+const Portfolio = () => {
   return (
     <main className="bg-indigo-100 min-h-screen">
       {/* Header */}
@@ -202,4 +202,4 @@ const portfolio = () => {
   );
 };
 
-export default portfolio;
+export default Portfolio;
