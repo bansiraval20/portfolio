@@ -7,12 +7,15 @@ const About = () => {
   return (
     <main className="bg-indigo-100 w-auto">
       <div className="">
+      <div className="relative h-80 w-full">
         <Image
           src="https://rutvikdarji.vercel.app/_next/image?url=%2Fstatic%2Fimages%2Fdeveloper.jpg&w=1920&q=75"
-          alt=""
-          fill
-          className="h-80 w-[1500px] object-fill  "
+          alt="Developer Image"
+          layout="fill"
+          objectFit="cover"
         />
+</div>
+
       </div>
       <div className="w-auto flex justify-center md:flex md:justify-center absolute left-[35%] top-[58%] sm:absolute sm:left-[42.8%] sm:top-[54%] md:absolute md:left-[44.5%] md:top-[45%]">
         <motion.div

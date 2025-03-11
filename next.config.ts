@@ -7,6 +7,10 @@ const nextConfig = {
   trailingSlash: true,
   
   },
+
+  images: {
+    domains: ["rutvikdarji.vercel.app"], 
+  },
 };
 
 module.exports = nextConfig;

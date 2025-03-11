@@ -1,10 +1,10 @@
-import Hero from "@/components/portfolio";
+import About from "@/components/About";
 
 
 export default function Home() {
   return (
     <main>
-      <Hero />
+      <About />
       
     </main>
   );
