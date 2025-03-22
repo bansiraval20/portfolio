@@ -17,7 +17,7 @@ const About = () => {
 </div>
 
       </div>
-      <div className="w-auto flex justify-center md:flex md:justify-center absolute left-[35%] top-[58%] sm:absolute sm:left-[42.8%] sm:top-[54%] md:absolute md:left-[44.5%] md:top-[45%]">
+      <div className="w-auto flex justify-center md:flex md:justify-center absolute left-[34%] top-[49%] sm:absolute sm:left-[42.8%] sm:top-[49%] md:absolute md:left-[44.5%] md:top-[45%]">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           whileInView={{ opacity: 1, scale: 1 }}
@@ -28,7 +28,7 @@ const About = () => {
             src="/profile3.jpg"
             alt="Profile"
             fill
-            className="object-cover w-full h-full "
+            className="object-cover w-full h-full"
           />
         </motion.div>
       </div>
