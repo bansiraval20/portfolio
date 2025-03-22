@@ -17,7 +17,7 @@ const About = () => {
 </div>
 
       </div>
-      <div className="w-auto flex justify-center md:flex md:justify-center absolute left-[34%] top-[50%] sm:absolute sm:left-[40.8%] sm:top-[40%] md:absolute md:left-[44.5%] md:top-[46.5%]">
+      <div className="w-auto flex justify-center md:flex md:justify-center absolute left-[34%] top-[51%] sm:absolute sm:left-[40.8%] sm:top-[40%] md:absolute md:left-[44.5%] md:top-[46.5%]">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           whileInView={{ opacity: 1, scale: 1 }}
