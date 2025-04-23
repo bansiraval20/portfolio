@@ -22,7 +22,8 @@ const Homepage = () => {
         <div className="relative w-40 h-40 sm:w-48 sm:h-48 md:w-56 md:h-56 lg:w-72 lg:h-72 mb-6 md:mb-0">
 
       {/* Spinning shadow ring behind */}
-      <div className="absolute -inset-[2px] w-[292px] h-[292px] rounded-full bg-gradient-to-r from-lime-300 via-green-400 to-emerald-300 blur-lg opacity-60 animate-spin"></div>
+      <div className="hidden md:absolute md:-inset-[2px] md:w-[292px] md:h-[292px] md:rounded-full md:bg-gradient-to-r from-lime-300 via-green-400 to-emerald-300 md:blur-lg md:opacity-60 md:animate-spin md:block"></div>
+
 
       {/* Profile Image on top */}
       <div className="relative w-full h-full overflow-hidden rounded-full shadow-lg z-10">
