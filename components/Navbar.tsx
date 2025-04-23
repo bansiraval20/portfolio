@@ -3,27 +3,25 @@ import Link from 'next/link';
 
 const Navbar = () => {
   return (
-    <header className="bg-slate-900 text-white shadow-md shadow-slate-400">
-    <nav className="flex justify-between items-center px-6 md:px-12 h-16">
-      {/* Logo */}
-      <div className="font-semibold text-lg animate-bounceIn"><Link href={'/'}>Bansi Raval</Link></div>
+    <header className="bg-black/70 text-white animate-fadeIn">
+    <nav className="md:flex  px-6 md:px-14 h-16 justify-center shadow-md shadow-slate-400 hover:shadow-lg hover:shadow-slate-400">
   
       {/* Desktop Menu */}
-      <ul className="hidden md:flex space-x-6 font-semibold">
-        <li className="cursor-pointer hover:border-b-4 hover:rounded-md hover:border-gray-300 ">
+      <ul className="hidden md:flex space-x-6 font-semibold gap-12 justify-center items-center">
+        <li className="cursor-pointer transition-transform duration-400 ease-in-out hover:scale-110 opacity-60 hover:opacity-100 hover:underline hover:underline-offset-8">
           <Link href={'/'}>Home</Link>
         </li>
-        <li className="cursor-pointer hover:border-b-4 hover:rounded-md hover:border-gray-300 ">
+        <li className="cursor-pointer transition-transform duration-400 ease-in-out hover:scale-110 opacity-60 hover:opacity-100 hover:underline hover:underline-offset-8">
           <Link href={'/about'}>About</Link>
         </li>
-        <li className="cursor-pointer hover:border-b-4 hover:rounded-md hover:border-gray-300">
+        <li className="cursor-pointer transition-transform duration-400 ease-in-out hover:scale-110 opacity-60 hover:opacity-100 hover:underline hover:underline-offset-8">
           <Link href="/project">Project</Link>
         </li>
-        <li className="cursor-pointer hover:border-b-4 hover:rounded-md hover:border-gray-300">
+        <li className="cursor-pointer transition-transform duration-400 ease-in-out hover:scale-110 opacity-60 hover:opacity-100 hover:underline hover:underline-offset-8">
           <Link href={'/contact'}>Contact</Link>
         </li>
-        <li className="cursor-pointer hover:border-b-4 hover:rounded-md hover:border-gray-300">
-          <Link href={'/'}>Certificates</Link>
+        <li className="cursor-pointer  transition-transform duration-400 ease-in-out hover:scale-110 opacity-60 hover:opacity-100 hover:underline hover:underline-offset-8">
+          <Link href={'/certificates'}>Certificates</Link>
         </li>
       </ul>
   

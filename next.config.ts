@@ -5,11 +5,13 @@ const nextConfig = {
   experimental: {
   appDir: true,
   trailingSlash: true,
+
+  
   
   },
 
   images: {
-    domains: ["rutvikdarji.vercel.app"], 
+    domains: ['images.unsplash.com','rutvikdarji.vercel.app'],
   },
 };
 

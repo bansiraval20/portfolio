@@ -17,7 +17,7 @@ darkMode: "class", // Enable class-based dark mode
         'bounceIn': "bounceIn 0.6s ease-in-out",
         'spinSlow': "spinSlow 3s linear infinite",
         'wiggle': "wiggle 0.5s ease-in-out infinite",
-        'fadeIn': "fadeIn 1s ease-in-out",
+        'fadeIn': "fadeIn 9s ease-in-out",
         'fadeOut': "fadeOut 1s ease-in-out",
         'zoomIn': "zoomIn 0.5s ease-in-out",
         'zoomOut': "zoomOut 0.5s ease-in-out",
